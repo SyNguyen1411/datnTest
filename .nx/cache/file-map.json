@@ -1,0 +1,3367 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.0.5",
+  "deps": {
+    "@angular/animations": "^16.2.0",
+    "@angular/common": "^16.2.0",
+    "@angular/compiler": "^16.2.0",
+    "@angular/core": "^16.2.0",
+    "@angular/forms": "^16.2.0",
+    "@angular/platform-browser": "^16.2.0",
+    "@angular/platform-browser-dynamic": "^16.2.0",
+    "@angular/router": "^16.2.0",
+    "@fortawesome/angular-fontawesome": "^0.13.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@ng-bootstrap/ng-bootstrap": "^15.1.2",
+    "@ngx-translate/core": "^15.0.0",
+    "@ngx-translate/http-loader": "^8.0.0",
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "ngx-bootstrap-icons": "^1.9.3",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.13.0",
+    "@angular-devkit/build-angular": "^16.2.12",
+    "@angular/cli": "^16.2.12",
+    "@angular/compiler-cli": "^16.2.0",
+    "@angular/localize": "^16.2.0",
+    "@types/jasmine": "~4.3.0",
+    "jasmine-core": "~4.6.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.1.3",
+    "nx": "18.0.5"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "fe-client": [
+        {
+          "file": "apps/FE-Client/.editorconfig",
+          "hash": "17241496168097493888"
+        },
+        {
+          "file": "apps/FE-Client/.gitignore",
+          "hash": "4689145951703824387"
+        },
+        {
+          "file": "apps/FE-Client/.vscode/extensions.json",
+          "hash": "11934160580685414355"
+        },
+        {
+          "file": "apps/FE-Client/.vscode/launch.json",
+          "hash": "17406702432687230417"
+        },
+        {
+          "file": "apps/FE-Client/.vscode/tasks.json",
+          "hash": "10093397977228577162"
+        },
+        {
+          "file": "apps/FE-Client/README.md",
+          "hash": "7978526041118439295"
+        },
+        {
+          "file": "apps/FE-Client/angular.json",
+          "hash": "5722566406085864917"
+        },
+        {
+          "file": "apps/FE-Client/package-lock.json",
+          "hash": "18240823002404085218"
+        },
+        {
+          "file": "apps/FE-Client/package.json",
+          "hash": "11544909920083456732"
+        },
+        {
+          "file": "apps/FE-Client/src/app/app-routing.module.ts",
+          "hash": "10707420156296568892"
+        },
+        {
+          "file": "apps/FE-Client/src/app/app.component.ts",
+          "hash": "7921257267400116948"
+        },
+        {
+          "file": "apps/FE-Client/src/app/app.module.ts",
+          "hash": "4225174159499422580"
+        },
+        {
+          "file": "apps/FE-Client/src/app/app/app.component.css",
+          "hash": "15036214574332298676"
+        },
+        {
+          "file": "apps/FE-Client/src/app/app/app.component.html",
+          "hash": "16163160826459114282"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/change-password/change-password.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/change-password/change-password.component.html",
+          "hash": "15110307563869494235"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/change-password/change-password.component.spec.ts",
+          "hash": "7635529971782899586"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/change-password/change-password.component.ts",
+          "hash": "15038606170464831375"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/footer/footer.component.css",
+          "hash": "3167175719428896602"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/footer/footer.component.html",
+          "hash": "10561446984617946571"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/footer/footer.component.spec.ts",
+          "hash": "16734526448690729380"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/footer/footer.component.ts",
+          "hash": "13083958771676406291"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/forget-password/forget-password.component.css",
+          "hash": "8891691714339941356"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/forget-password/forget-password.component.html",
+          "hash": "11246782216884476689"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/forget-password/forget-password.component.spec.ts",
+          "hash": "17824162414802721075"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/forget-password/forget-password.component.ts",
+          "hash": "3654635809323858434"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/header/header.component.css",
+          "hash": "2404829978641181649"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/header/header.component.html",
+          "hash": "6567128396361306748"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/header/header.component.spec.ts",
+          "hash": "14465742688965997085"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/header/header.component.ts",
+          "hash": "11791546510197926210"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/home/home.component.css",
+          "hash": "14312997698199105553"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/home/home.component.html",
+          "hash": "16354345334524040714"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/home/home.component.spec.ts",
+          "hash": "17251428766814914771"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/home/home.component.ts",
+          "hash": "75174192660004002"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/create-lesson/create-lesson.component.css",
+          "hash": "13461549093415283657"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/create-lesson/create-lesson.component.html",
+          "hash": "11989405514886354544"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/create-lesson/create-lesson.component.spec.ts",
+          "hash": "2890411096145894597"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/create-lesson/create-lesson.component.ts",
+          "hash": "3448093539216266607"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/create-test/create-test.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/create-test/create-test.component.html",
+          "hash": "11145615149686773843"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/create-test/create-test.component.spec.ts",
+          "hash": "6999971656597235187"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/create-test/create-test.component.ts",
+          "hash": "16933190152167665671"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson-detail/flashcard/flashcard-item/flashcard-item.component.css",
+          "hash": "15117291895648626617"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson-detail/flashcard/flashcard-item/flashcard-item.component.html",
+          "hash": "1802619330295086086"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson-detail/flashcard/flashcard-item/flashcard-item.component.spec.ts",
+          "hash": "7678514371376765031"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson-detail/flashcard/flashcard-item/flashcard-item.component.ts",
+          "hash": "13878901382853460704"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson-detail/flashcard/flashcard.component.css",
+          "hash": "12929583209504428190"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson-detail/flashcard/flashcard.component.html",
+          "hash": "15383256637753239256"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson-detail/flashcard/flashcard.component.spec.ts",
+          "hash": "3027691524340758641"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson-detail/flashcard/flashcard.component.ts",
+          "hash": "17496873689074941040"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson-detail/lesson-detail.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson-detail/lesson-detail.component.html",
+          "hash": "15205093845596829291"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson-detail/lesson-detail.component.spec.ts",
+          "hash": "6542931034865197736"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson-detail/lesson-detail.component.ts",
+          "hash": "14691070650179259842"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson-detail/lesson-learn/lesson-learn.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson-detail/lesson-learn/lesson-learn.component.html",
+          "hash": "13327997264555996136"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson-detail/lesson-learn/lesson-learn.component.spec.ts",
+          "hash": "15159092777592576724"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson-detail/lesson-learn/lesson-learn.component.ts",
+          "hash": "11969333332574659086"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson.component.html",
+          "hash": "16498897523005705592"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson.component.spec.ts",
+          "hash": "2446104361523845622"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/lesson.component.ts",
+          "hash": "11842176860911169160"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/list-lesson/list-lesson.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/list-lesson/list-lesson.component.html",
+          "hash": "7529130655072953782"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/list-lesson/list-lesson.component.spec.ts",
+          "hash": "10952914707252323934"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/list-lesson/list-lesson.component.ts",
+          "hash": "5068813256675379871"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/questions/questions.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/questions/questions.component.html",
+          "hash": "9266337747181852767"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/questions/questions.component.spec.ts",
+          "hash": "565105195094017982"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/lesson/questions/questions.component.ts",
+          "hash": "17193804673287695233"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/login/login.component.css",
+          "hash": "9988194752148736607"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/login/login.component.html",
+          "hash": "15579318133720726622"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/login/login.component.spec.ts",
+          "hash": "8518509768595172761"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/login/login.component.ts",
+          "hash": "12994408485970985892"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/page-not-found/page-not-found.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/page-not-found/page-not-found.component.html",
+          "hash": "15351900794056125178"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/page-not-found/page-not-found.component.spec.ts",
+          "hash": "7780882553787506458"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/page-not-found/page-not-found.component.ts",
+          "hash": "13825807676721849413"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/test/create-test/create-lesson-test/create-lesson-test.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/test/create-test/create-lesson-test/create-lesson-test.component.html",
+          "hash": "3213957445047959977"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/test/create-test/create-lesson-test/create-lesson-test.component.spec.ts",
+          "hash": "4384703777201244344"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/test/create-test/create-lesson-test/create-lesson-test.component.ts",
+          "hash": "4656249071379212920"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/test/create-test/create-test.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/test/create-test/create-test.component.html",
+          "hash": "11145615149686773843"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/test/create-test/create-test.component.spec.ts",
+          "hash": "6999971656597235187"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/test/create-test/create-test.component.ts",
+          "hash": "16933190152167665671"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/test/test-detail/test-detail.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/test/test-detail/test-detail.component.html",
+          "hash": "18315433591790844640"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/test/test-detail/test-detail.component.spec.ts",
+          "hash": "10938597789233472279"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/test/test-detail/test-detail.component.ts",
+          "hash": "15563133897666304592"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/test/test.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/test/test.component.html",
+          "hash": "10841845368283051821"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/test/test.component.spec.ts",
+          "hash": "3074680968857629404"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/test/test.component.ts",
+          "hash": "8874262651692956537"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/user-info/user-info.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/user-info/user-info.component.html",
+          "hash": "16925512295891697942"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/user-info/user-info.component.spec.ts",
+          "hash": "17431322647645363672"
+        },
+        {
+          "file": "apps/FE-Client/src/app/components/user-info/user-info.component.ts",
+          "hash": "16731675430705041191"
+        },
+        {
+          "file": "apps/FE-Client/src/app/services/lesson/lesson.service.spec.ts",
+          "hash": "10990702373453477469"
+        },
+        {
+          "file": "apps/FE-Client/src/app/services/lesson/lesson.service.ts",
+          "hash": "16995685691846489288"
+        },
+        {
+          "file": "apps/FE-Client/src/app/styles/shared-styles.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/dataTables.min.css",
+          "hash": "5591102056466161158"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/index.css",
+          "hash": "12196055516437505125"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/theme-rtl.css",
+          "hash": "12518885178300327580"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/theme-rtl.css.map",
+          "hash": "3184058293168369011"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/theme-rtl.min.css",
+          "hash": "6187821568975635532"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/theme-rtl.min.css.map",
+          "hash": "5529268548994581511"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/theme.css",
+          "hash": "12258490074766670631"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/theme.css.map",
+          "hash": "6465129327444933176"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/theme.min.css",
+          "hash": "8207596440168866697"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/theme.min.css.map",
+          "hash": "17652447429754060045"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/theme/dropdown-rtl.css",
+          "hash": "2764432129717440320"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/theme/dropdown-rtl.css.map",
+          "hash": "656543555583286084"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/theme/dropdown-rtl.min.css",
+          "hash": "10566207892794449171"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/theme/dropdown-rtl.min.css.map",
+          "hash": "3819488586900712558"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/theme/dropdown.css",
+          "hash": "1078677638387876918"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/theme/dropdown.css.map",
+          "hash": "2195828850984552419"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/theme/dropdown.min.css",
+          "hash": "16481894300316181821"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/css/theme/dropdown.min.css.map",
+          "hash": "1589985394122849007"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/i18n/en.json",
+          "hash": "2049539754952623573"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/i18n/vi.json",
+          "hash": "12619711601104071583"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/commons/default_user.jpeg",
+          "hash": "9470396758748628582"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/commons/fb_logo.png",
+          "hash": "10715524555813090083"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/commons/forgpt_pass.jpg",
+          "hash": "9225137313582460301"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/commons/gg_logo.png",
+          "hash": "1715014172771186582"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/commons/sign_in.jpg",
+          "hash": "10855404583904481791"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/commons/temp.jpg",
+          "hash": "600022024290069854"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/favicons/android-chrome-192x192.png",
+          "hash": "12004144447539118569"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/favicons/android-chrome-512x512.png",
+          "hash": "2997250447808158714"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/favicons/apple-touch-icon.png",
+          "hash": "7751817880643207804"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/favicons/browserconfig.xml",
+          "hash": "13625944903167556917"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/favicons/favicon-16x16.png",
+          "hash": "8210161409944322504"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/favicons/favicon-32x32.png",
+          "hash": "10695557438143011128"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/favicons/favicon.ico",
+          "hash": "6363550565476445939"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/favicons/manifest.json",
+          "hash": "2181033123543873235"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/favicons/mstile-150x150.png",
+          "hash": "17589670608322617389"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/favicons/site.webmanifest",
+          "hash": "11205980641497128048"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/arguments.png",
+          "hash": "11673323368158794588"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/art-design-1.png",
+          "hash": "2782405298045967014"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/art-design.png",
+          "hash": "8028755831721534659"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/awards.png",
+          "hash": "3766243736882271969"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/critical-thinking.png",
+          "hash": "750978967457513937"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/cta.png",
+          "hash": "10237059261928141937"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/design.png",
+          "hash": "9787525992484098585"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/experience-design.png",
+          "hash": "11479603757162915895"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/footer-logo.png",
+          "hash": "14135863876662542714"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/funfacts-2-bg.png",
+          "hash": "9198567139043087623"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/funfacts.png",
+          "hash": "10409761257971911787"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/hero-header.png",
+          "hash": "13184850861304627949"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/instructors.png",
+          "hash": "1667686142238751459"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/learners.png",
+          "hash": "3310062974812502935"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/logo-n.png",
+          "hash": "8342190983628079739"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/logo-n1.png",
+          "hash": "8342190983628079739"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/main.png",
+          "hash": "2780348150231759506"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/philosophy.png",
+          "hash": "9103425154675449873"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/photographs.png",
+          "hash": "5468708232534185898"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/psychology.png",
+          "hash": "995486170144799856"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/published.png",
+          "hash": "13577893584198263119"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/searching.png",
+          "hash": "7126673868248983578"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/student-feedback.png",
+          "hash": "11753345222391278333"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/user-design.png",
+          "hash": "569224966411456133"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/user-research.png",
+          "hash": "11382912110860302201"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/ux-designer.png",
+          "hash": "9684429816996532626"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/img/gallery/ux.png",
+          "hash": "7101275582997398198"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/js/bootstrap-navbar.js",
+          "hash": "6464786488956234521"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/js/dataTables.js",
+          "hash": "6115334126389893489"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/js/dataTables.min.js",
+          "hash": "5487842967340065283"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/js/detector.js",
+          "hash": "8541992347471881165"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/js/home.js",
+          "hash": "9874406543633231179"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/js/jquery.dataTables.min.js",
+          "hash": "18381626969693330011"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/js/lesson.js",
+          "hash": "6669871153069713276"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/js/login.js",
+          "hash": "11492037878394259667"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/js/scroll-to-top.js",
+          "hash": "2996925231083881227"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/js/theme.js",
+          "hash": "8005971781531642721"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/js/theme.js.map",
+          "hash": "16046775106241788686"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/js/theme.min.js",
+          "hash": "8518023555652148383"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/js/theme.min.js.map",
+          "hash": "12268183435453925319"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/js/utils.js",
+          "hash": "14082469591187924586"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/_bootstrap.scss",
+          "hash": "8061660516804592890"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/_user-variables.scss",
+          "hash": "2749086441973609035"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/_user.scss",
+          "hash": "5798022796061078589"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme.css",
+          "hash": "17030966900284029891"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme.css.map",
+          "hash": "12531213670513419437"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme.scss",
+          "hash": "13946388996614006310"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_badge.scss",
+          "hash": "8009340854829019715"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_browser-support.scss",
+          "hash": "5283505867130908037"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_button.scss",
+          "hash": "14351357673164444742"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_card.scss",
+          "hash": "14302540056357566451"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_form.scss",
+          "hash": "2458477866935947302"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_functions.scss",
+          "hash": "10345287236155507128"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_helpers.scss",
+          "hash": "6181129201728062881"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_hover.scss",
+          "hash": "229232738576963492"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_icon.scss",
+          "hash": "1523909838216664383"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_mixed.scss",
+          "hash": "10507785284736912750"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_mixins.scss",
+          "hash": "2906541350968333981"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_nav-tab.scss",
+          "hash": "1048615694835159214"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_reboot.scss",
+          "hash": "4478485133216200672"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_testimonial.scss",
+          "hash": "9738333370271194636"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_theme.scss",
+          "hash": "146898296610753048"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_topnav.scss",
+          "hash": "2243592022589276725"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_utilities.scss",
+          "hash": "2096486227992634006"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/_variables.scss",
+          "hash": "17814827445889164588"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/dropdown.scss",
+          "hash": "17888444674955295260"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/helpers/_background.scss",
+          "hash": "15601183925858581279"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/helpers/_borders.scss",
+          "hash": "17776748953002646287"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/helpers/_colored-links.scss",
+          "hash": "467588570026757771"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/helpers/_flex.scss",
+          "hash": "13861599614129923043"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/helpers/_position.scss",
+          "hash": "13355498082214292699"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/helpers/_shadow.scss",
+          "hash": "1061920939812717042"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/scss/theme/helpers/_text.scss",
+          "hash": "2542554938954289119"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/vendors/feather-icons/feather.min.js",
+          "hash": "15002532369896177812"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/vendors/fontawesome/all.min.js",
+          "hash": "3582601949475384287"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/vendors/is/is.min.js",
+          "hash": "8158510531154839794"
+        },
+        {
+          "file": "apps/FE-Client/src/assets/video/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Client/src/environments/app.constant.ts",
+          "hash": "11904662058047018608"
+        },
+        {
+          "file": "apps/FE-Client/src/environments/environments.ts",
+          "hash": "13141413560646966125"
+        },
+        {
+          "file": "apps/FE-Client/src/favicon.ico",
+          "hash": "3464744996580215640"
+        },
+        {
+          "file": "apps/FE-Client/src/index.html",
+          "hash": "3490593150297938618"
+        },
+        {
+          "file": "apps/FE-Client/src/main.ts",
+          "hash": "827237075323575508"
+        },
+        {
+          "file": "apps/FE-Client/src/styles.css",
+          "hash": "16216486184774224162"
+        },
+        {
+          "file": "apps/FE-Client/tsconfig.app.json",
+          "hash": "366722516949793923"
+        },
+        {
+          "file": "apps/FE-Client/tsconfig.json",
+          "hash": "1426335498558518182"
+        },
+        {
+          "file": "apps/FE-Client/tsconfig.spec.json",
+          "hash": "5059954046679394591"
+        }
+      ],
+      "datn": [
+        {
+          "file": ".idea/.gitignore",
+          "hash": "5255412931663222636"
+        },
+        {
+          "file": ".idea/datn.iml",
+          "hash": "13360848387431630234"
+        },
+        {
+          "file": ".idea/misc.xml",
+          "hash": "138599933205637381"
+        },
+        {
+          "file": ".idea/modules.xml",
+          "hash": "17312170444904312496"
+        },
+        {
+          "file": ".idea/vcs.xml",
+          "hash": "13293567582109246085"
+        },
+        {
+          "file": ".idea/workspace.xml",
+          "hash": "4654763980572379835"
+        },
+        {
+          "file": "nx.json",
+          "hash": "8692481314165029692"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "11910640068524519717"
+        },
+        {
+          "file": "package.json",
+          "hash": "9445738098820686202",
+          "deps": [
+            "npm:@angular/animations",
+            "npm:@angular/common",
+            "npm:@angular/compiler",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/platform-browser",
+            "npm:@angular/platform-browser-dynamic",
+            "npm:@angular/router",
+            "npm:@fortawesome/angular-fontawesome",
+            "npm:@fortawesome/fontawesome-svg-core",
+            "npm:@fortawesome/free-brands-svg-icons",
+            "npm:@fortawesome/free-regular-svg-icons",
+            "npm:@fortawesome/free-solid-svg-icons",
+            "npm:@ng-bootstrap/ng-bootstrap",
+            "npm:@ngx-translate/core",
+            "npm:@ngx-translate/http-loader",
+            "npm:@popperjs/core",
+            "npm:bootstrap",
+            "npm:ngx-bootstrap-icons",
+            "npm:rxjs",
+            "npm:tslib",
+            "npm:zone.js",
+            "npm:@angular-devkit/build-angular",
+            "npm:@angular/cli",
+            "npm:@angular/compiler-cli",
+            "npm:@angular/localize",
+            "npm:@types/jasmine",
+            "npm:jasmine-core",
+            "npm:karma",
+            "npm:karma-chrome-launcher",
+            "npm:karma-coverage",
+            "npm:karma-jasmine",
+            "npm:karma-jasmine-html-reporter",
+            "npm:typescript",
+            "npm:nx"
+          ]
+        },
+        {
+          "file": ".nx/cache/project-graph.json",
+          "hash": "7160202572065180364"
+        },
+        {
+          "file": ".nx/cache/file-map.json",
+          "hash": "4252421972255975419"
+        },
+        {
+          "file": "tsconfig.base.json",
+          "hash": "12471885200579325840"
+        },
+        {
+          "file": ".nx/cache/run.json",
+          "hash": "8488493489407230157"
+        }
+      ],
+      "fe-admin": [
+        {
+          "file": "apps/FE-Admin/.editorconfig",
+          "hash": "17241496168097493888"
+        },
+        {
+          "file": "apps/FE-Admin/.gitignore",
+          "hash": "677958849871418014"
+        },
+        {
+          "file": "apps/FE-Admin/.vscode/extensions.json",
+          "hash": "11934160580685414355"
+        },
+        {
+          "file": "apps/FE-Admin/.vscode/launch.json",
+          "hash": "17406702432687230417"
+        },
+        {
+          "file": "apps/FE-Admin/.vscode/tasks.json",
+          "hash": "10093397977228577162"
+        },
+        {
+          "file": "apps/FE-Admin/README.md",
+          "hash": "10581251412630699932"
+        },
+        {
+          "file": "apps/FE-Admin/angular.json",
+          "hash": "9044702200201515127"
+        },
+        {
+          "file": "apps/FE-Admin/package-lock.json",
+          "hash": "13178220788122316258"
+        },
+        {
+          "file": "apps/FE-Admin/package.json",
+          "hash": "3474251056092976563",
+          "deps": [
+            "npm:@angular/animations",
+            "npm:@angular/common",
+            "npm:@angular/compiler",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/platform-browser",
+            "npm:@angular/platform-browser-dynamic",
+            "npm:@angular/router",
+            "npm:@fortawesome/angular-fontawesome",
+            "npm:@fortawesome/fontawesome-svg-core",
+            "npm:@fortawesome/free-brands-svg-icons",
+            "npm:@fortawesome/free-regular-svg-icons",
+            "npm:@fortawesome/free-solid-svg-icons",
+            "npm:@ng-bootstrap/ng-bootstrap",
+            "npm:@ngx-translate/core",
+            "npm:@ngx-translate/http-loader",
+            "npm:@popperjs/core",
+            "npm:bootstrap",
+            "npm:ngx-bootstrap-icons",
+            "npm:rxjs",
+            "npm:tslib",
+            "npm:zone.js",
+            "npm:@angular-devkit/build-angular",
+            "npm:@angular/cli",
+            "npm:@angular/compiler-cli",
+            "npm:@angular/localize",
+            "npm:@types/jasmine",
+            "npm:jasmine-core",
+            "npm:karma",
+            "npm:karma-chrome-launcher",
+            "npm:karma-coverage",
+            "npm:karma-jasmine",
+            "npm:karma-jasmine-html-reporter",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "apps/FE-Admin/src/app/app-routing.module.ts",
+          "hash": "12885633745559101059"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/app.component.spec.ts",
+          "hash": "14256762431085808674"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/app.component.ts",
+          "hash": "14445968612300837918"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/app.module.ts",
+          "hash": "9765059576200308894"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/app/app.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/app/app.component.html",
+          "hash": "2269002512581304823"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/change-password/change-password.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/change-password/change-password.component.html",
+          "hash": "15110307563869494235"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/change-password/change-password.component.spec.ts",
+          "hash": "7635529971782899586"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/change-password/change-password.component.ts",
+          "hash": "15038606170464831375"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/footer/footer.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/footer/footer.component.html",
+          "hash": "12965503917554229835"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/footer/footer.component.spec.ts",
+          "hash": "16734526448690729380"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/footer/footer.component.ts",
+          "hash": "13083958771676406291"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/forgot-password/forgot-password.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/forgot-password/forgot-password.component.html",
+          "hash": "6652606179714440229"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/forgot-password/forgot-password.component.spec.ts",
+          "hash": "4235772161246566428"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/forgot-password/forgot-password.component.ts",
+          "hash": "13548200177890760654"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/header/header.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/header/header.component.html",
+          "hash": "11641884648392958525"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/header/header.component.spec.ts",
+          "hash": "14465742688965997085"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/header/header.component.ts",
+          "hash": "13593037929272246018"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/home/home.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/home/home.component.html",
+          "hash": "17897399552569273307"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/home/home.component.spec.ts",
+          "hash": "17251428766814914771"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/home/home.component.ts",
+          "hash": "5366475297895025100"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/login/login.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/login/login.component.html",
+          "hash": "17867980221530361052"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/login/login.component.spec.ts",
+          "hash": "8518509768595172761"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/login/login.component.ts",
+          "hash": "11794318175694926557"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/user-info/user-info.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/user-info/user-info.component.html",
+          "hash": "16925512295891697942"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/user-info/user-info.component.spec.ts",
+          "hash": "17431322647645363672"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/user-info/user-info.component.ts",
+          "hash": "16731675430705041191"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/users/users.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/users/users.component.html",
+          "hash": "17394896884015840120"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/users/users.component.spec.ts",
+          "hash": "17649410725696681661"
+        },
+        {
+          "file": "apps/FE-Admin/src/app/components/users/users.component.ts",
+          "hash": "13038329903910694194"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/css/animate.css",
+          "hash": "9439068443891260035"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/css/bootstrap-datetimepicker.min.css",
+          "hash": "17691557190825069560"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/css/bootstrap.min.css",
+          "hash": "14806158988884724127"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/css/dataTables.bootstrap4.min.css",
+          "hash": "8004735783208615492"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/css/style.css",
+          "hash": "5204434244575434822"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/i18n/en.json",
+          "hash": "2049539754952623573"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/i18n/vi.json",
+          "hash": "12619711601104071583"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/barcode1.png",
+          "hash": "7078846775805320957"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/brand/adidas.png",
+          "hash": "281644026926232053"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/brand/colgate.png",
+          "hash": "16420708795767477147"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/brand/samsung.png",
+          "hash": "14227948570548059268"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/customer/customer1.jpg",
+          "hash": "18222282432987894044"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/customer/customer2.jpg",
+          "hash": "13932784041278425614"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/customer/customer3.jpg",
+          "hash": "12657772585079291116"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/customer/customer4.jpg",
+          "hash": "13069181235627045085"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/customer/customer5.jpg",
+          "hash": "14096099344592200812"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/customer/customer6.jpg",
+          "hash": "13932784041278425614"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/customer/customer7.jpg",
+          "hash": "11290652382270110567"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/customer/customer8.jpg",
+          "hash": "13885971807382466924"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/customer/profile2.jpg",
+          "hash": "11418954073294238959"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/customer/profile3.jpg",
+          "hash": "7217771994941478722"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/customer/profile4.jpg",
+          "hash": "15070730821964371500"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/customer/profile5.jpg",
+          "hash": "17747268933997195482"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/favicon.jpg",
+          "hash": "945371581133595491"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/flags/de.png",
+          "hash": "646789531789474390"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/flags/es.png",
+          "hash": "14299895943769046166"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/flags/fr.png",
+          "hash": "4686349193066101461"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/flags/us.png",
+          "hash": "17660441658592274902"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/flags/us1.png",
+          "hash": "13483215979158070543"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/calendars.svg",
+          "hash": "9720960930437675460"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/cash.svg",
+          "hash": "12144147359851232566"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/close-circle.svg",
+          "hash": "2308121741426223542"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/close-circle1.svg",
+          "hash": "5577118804789787708"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/closes.svg",
+          "hash": "10070252402908521235"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/dash1.svg",
+          "hash": "15477982904068077383"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/dash2.svg",
+          "hash": "13611743147855743795"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/dash3.svg",
+          "hash": "4002575647467348246"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/dash4.svg",
+          "hash": "16076923975626438508"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/dashboard.svg",
+          "hash": "10751005111158983991"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/datepicker.svg",
+          "hash": "13002326755891470673"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/debitcard.svg",
+          "hash": "5141055082840275701"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/delete-2.svg",
+          "hash": "16478704929911829334"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/delete.svg",
+          "hash": "10885042653423919932"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/delete1.svg",
+          "hash": "10943455407228459253"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/dollar-square.svg",
+          "hash": "5930287831339560238"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/dollar.svg",
+          "hash": "2713437252457978091"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/download.svg",
+          "hash": "12678753913666900175"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/dropdown.svg",
+          "hash": "1454699316454628427"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/edit-5.svg",
+          "hash": "15850256037006547789"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/edit-6.svg",
+          "hash": "6416435164563983354"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/edit-set.svg",
+          "hash": "2401971656550603974"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/edit.svg",
+          "hash": "13469253877069178465"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/ellipise1.svg",
+          "hash": "7035999565973676803"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/excel.svg",
+          "hash": "17424570430027813040"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/expense1.svg",
+          "hash": "1772849515984642116"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/eye.svg",
+          "hash": "2609143908994428265"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/eye1.svg",
+          "hash": "13475787195576290313"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/facebook.png",
+          "hash": "12139897252709339990"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/filter.svg",
+          "hash": "102958405917508902"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/google.png",
+          "hash": "10555355556676900745"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/log-out.svg",
+          "hash": "8465092580232658472"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/macbook.svg",
+          "hash": "9707469393929194611"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/mail.svg",
+          "hash": "1220033299895859337"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/minus.svg",
+          "hash": "8252555102857983657"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/notification-bing.svg",
+          "hash": "4047192696381431772"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/pause1.svg",
+          "hash": "16676621146383953910"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/pdf.svg",
+          "hash": "12668562774537515835"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/places.svg",
+          "hash": "12045872681549800013"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/plus-circle.svg",
+          "hash": "11572596949742251951"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/plus.svg",
+          "hash": "17405884959456251325"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/plus1.svg",
+          "hash": "911698435168736373"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/printer.svg",
+          "hash": "7093241944513949676"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/product.svg",
+          "hash": "10965786941112186804"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/purchase1.svg",
+          "hash": "17178007234639365681"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/quotation1.svg",
+          "hash": "5424875202482775886"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/return1.svg",
+          "hash": "6756753418269017810"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/reverse.svg",
+          "hash": "2895074203940954814"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/sales1.svg",
+          "hash": "10852681519218773689"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/scan.svg",
+          "hash": "14015824544391301701"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/scanner.svg",
+          "hash": "7371920148281180471"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/scanner1.svg",
+          "hash": "8576297299714751653"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/scanners.svg",
+          "hash": "12510701828619106533"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/search-white.svg",
+          "hash": "12652342101472085740"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/search-whites.svg",
+          "hash": "16833127733960799103"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/search.svg",
+          "hash": "15367728684716391300"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/settings.svg",
+          "hash": "1769533050838133744"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/time.svg",
+          "hash": "8253806725634652108"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/transcation.svg",
+          "hash": "6809192949032432013"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/transfer1.svg",
+          "hash": "13197372012569907716"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/trash12.svg",
+          "hash": "17898238919126861206"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/upload.svg",
+          "hash": "13032872938809763095"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/users1.svg",
+          "hash": "8697657795245953441"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/icons/wallet1.svg",
+          "hash": "4804143225800126435"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/img-01.jpg",
+          "hash": "16521832131143766421"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/img-02.jpg",
+          "hash": "3092036250441379996"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/img-03.jpg",
+          "hash": "12644745307282453662"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/img-04.jpg",
+          "hash": "1191992180014066602"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/img-05.jpg",
+          "hash": "12644745307282453662"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/login.jpg",
+          "hash": "8584923124383727275"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/logo-small.png",
+          "hash": "234216530591178031"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/logo.png",
+          "hash": "6508422295456207829"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/logo1.png",
+          "hash": "14127799958294556871"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/logo3.png",
+          "hash": "16054841247136404114"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/logso.jpg",
+          "hash": "945371581133595491"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/noimage.png",
+          "hash": "15793695115681296310"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product1.jpg",
+          "hash": "18387598607323623935"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product10.jpg",
+          "hash": "5321193861031836063"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product11.jpg",
+          "hash": "2500551960289699392"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product12.jpg",
+          "hash": "11243089689272027942"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product13.jpg",
+          "hash": "6065891840259560347"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product15.jpg",
+          "hash": "6155161212743444607"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product17.jpg",
+          "hash": "16452672421221698037"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product2.jpg",
+          "hash": "11286816010934817941"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product22.jpg",
+          "hash": "12771354628761159294"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product23.jpg",
+          "hash": "10255834930488381550"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product24.jpg",
+          "hash": "10734052165444379753"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product29.jpg",
+          "hash": "17464065705557449136"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product3.jpg",
+          "hash": "7192771603617019648"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product30.jpg",
+          "hash": "5487499908992381980"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product31.jpg",
+          "hash": "8883338318474095957"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product32.jpg",
+          "hash": "10549786539513099403"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product34.jpg",
+          "hash": "14158343665278510396"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product35.jpg",
+          "hash": "9804389392768773111"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product36.jpg",
+          "hash": "14866354242295221826"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product37.jpg",
+          "hash": "11588829904060655498"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product4.jpg",
+          "hash": "17514834683284838976"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product44.jpg",
+          "hash": "8271582733881067210"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product45.jpg",
+          "hash": "5385792705361580527"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product46.jpg",
+          "hash": "15846692138664605436"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product47.jpg",
+          "hash": "4847381875626786037"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product48.png",
+          "hash": "4134269571413983879"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product49.jpg",
+          "hash": "17321509642156542682"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product5.jpg",
+          "hash": "12179691107015446017"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product51.jpg",
+          "hash": "17940318303381015256"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product52.jpg",
+          "hash": "4898926800432621387"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product53.jpg",
+          "hash": "15075426867457941337"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product54.jpg",
+          "hash": "6259639581846070437"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product55.jpg",
+          "hash": "4782092280595761402"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product56.jpg",
+          "hash": "15348510755386840453"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product57.jpg",
+          "hash": "17685815923903273392"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product58.jpg",
+          "hash": "16464295817754674678"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product6.jpg",
+          "hash": "9298633652015301464"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product60.jpg",
+          "hash": "15522955089958255857"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product61.png",
+          "hash": "11933360097867835022"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product62.png",
+          "hash": "9899945032379499859"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product63.png",
+          "hash": "2560187349808359556"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product64.png",
+          "hash": "14215784138593717607"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product65.png",
+          "hash": "9164729568660705803"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product66.png",
+          "hash": "17210649060022317691"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product67.png",
+          "hash": "12439440917855737758"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product68.png",
+          "hash": "9033477618246007253"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product69.jpg",
+          "hash": "12500400433253638974"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product7.jpg",
+          "hash": "12771354628761159294"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product8.jpg",
+          "hash": "10255834930488381550"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/product/product9.jpg",
+          "hash": "10734052165444379753"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/profiles/avatar-02.jpg",
+          "hash": "13932784041278425614"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/profiles/avatar-03.jpg",
+          "hash": "12657772585079291116"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/profiles/avatar-04.jpg",
+          "hash": "13069181235627045085"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/profiles/avatar-06.jpg",
+          "hash": "13932784041278425614"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/profiles/avatar-13.jpg",
+          "hash": "2499307275892699470"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/profiles/avatar-17.jpg",
+          "hash": "6736449817315587725"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/img/profiles/avator1.jpg",
+          "hash": "945371581133595491"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/js/bootstrap-datetimepicker.min.js",
+          "hash": "3655215292377958457"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/js/bootstrap.bundle.min.js",
+          "hash": "12191871834676844458"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/js/dataTables.bootstrap4.min.js",
+          "hash": "4035904024397207668"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/js/feather.min.js",
+          "hash": "15002532369896177812"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/js/jquery-3.6.0.min.js",
+          "hash": "13924887054219148940"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/js/jquery-ui.min.js",
+          "hash": "716825110347763010"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/js/jquery.dataTables.min.js",
+          "hash": "17075190572419582035"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/js/jquery.slimscroll.min.js",
+          "hash": "9064995073579066132"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/js/moment.min.js",
+          "hash": "10590207116244548835"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/js/script.js",
+          "hash": "1404285961415182113"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/alertify/alertify.min.css",
+          "hash": "3170191441900824168"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/alertify/alertify.min.js",
+          "hash": "14899385670115749424"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/alertify/custom-alertify.min.js",
+          "hash": "3070836252821379981"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/apexchart/apexcharts.min.js",
+          "hash": "627744653583815550"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/apexchart/chart-data.js",
+          "hash": "11259589835560970538"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/chartjs/chart-data.js",
+          "hash": "6040097157943433365"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/chartjs/chart.min.js",
+          "hash": "17737702734940028444"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/clipboard/clipboard.min.js",
+          "hash": "5041463795501184829"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/countup/jquery.counterup.min.js",
+          "hash": "4478149457903484149"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/countup/jquery.missofis-countdown.js",
+          "hash": "14457476106388468695"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/countup/jquery.waypoints.min.js",
+          "hash": "4385968044635041593"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/dragula/css/dragula.min.css",
+          "hash": "904362963562571522"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/dragula/js/drag-drop.min.js",
+          "hash": "3694368212434641991"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/dragula/js/dragula.min.js",
+          "hash": "1833489347214489518"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fileupload/fileupload.min.js",
+          "hash": "158591329986537099"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/flot/chart-data.js",
+          "hash": "12774790235918481808"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/flot/jquery.flot.fillbetween.js",
+          "hash": "12520620838770010156"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/flot/jquery.flot.js",
+          "hash": "3958946728389012715"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/flot/jquery.flot.pie.js",
+          "hash": "5161374687627032183"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/css/all.min.css",
+          "hash": "14931478088459695944"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/css/fontawesome.min.css",
+          "hash": "7951294151418696176"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-brands-400-1.eot",
+          "hash": "9236704428082486477"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-brands-400.eot",
+          "hash": "9236704428082486477"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-brands-400.svg",
+          "hash": "14164475584218046397"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-brands-400.ttf",
+          "hash": "3399194237317582668"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-brands-400.woff",
+          "hash": "8057849127445476016"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-brands-400.woff2",
+          "hash": "16720119330030162196"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-regular-400-1.eot",
+          "hash": "363867495106596634"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-regular-400.eot",
+          "hash": "363867495106596634"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-regular-400.svg",
+          "hash": "18147923480236089311"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-regular-400.ttf",
+          "hash": "3375988889958427409"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-regular-400.woff",
+          "hash": "14042061132827792877"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-regular-400.woff2",
+          "hash": "7253682313130405578"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-solid-900-1.eot",
+          "hash": "5223860608702708602"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-solid-900.eot",
+          "hash": "5223860608702708602"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-solid-900.svg",
+          "hash": "6638749057417597064"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-solid-900.ttf",
+          "hash": "5979036116522218390"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-solid-900.woff",
+          "hash": "4624440668120220258"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fontawesome/webfonts/fa-solid-900.woff2",
+          "hash": "16726664418803447733"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fullcalendar/fullcalendar.min.css",
+          "hash": "10574145520554642119"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fullcalendar/fullcalendar.min.js",
+          "hash": "6158109356721296981"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/fullcalendar/jquery.fullcalendar.js",
+          "hash": "12425783436554222097"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/feather/feather.css",
+          "hash": "13747221107250141723"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/feather/fonts/feather-webfont.woff",
+          "hash": "18026514461933241943"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags.css",
+          "hash": "18238532906408974666"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ad.png",
+          "hash": "2834017057587723938"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ae.png",
+          "hash": "10183622135695629967"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/af.png",
+          "hash": "2979393805401782874"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ag.png",
+          "hash": "17676635277245002315"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ai.png",
+          "hash": "4231678017437598573"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/al.png",
+          "hash": "13322346625597411657"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/am.png",
+          "hash": "18309554597408387305"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ao.png",
+          "hash": "8017830315983190962"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ar.png",
+          "hash": "14863956272235205534"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/as.png",
+          "hash": "11222596834485396522"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/at.png",
+          "hash": "15796361466121094953"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/au.png",
+          "hash": "3904152084874821576"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/aw.png",
+          "hash": "17244683371147387379"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ax.png",
+          "hash": "9946326345076540895"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/az.png",
+          "hash": "6873413237035278717"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ba.png",
+          "hash": "15851950583565111049"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/bb.png",
+          "hash": "4564604557697874961"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/bd.png",
+          "hash": "17695077570035300605"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/be.png",
+          "hash": "15065679635343307385"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/bf.png",
+          "hash": "9620360975939773555"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/bg.png",
+          "hash": "15893629210867607572"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/bh.png",
+          "hash": "13384616287696308414"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/bi.png",
+          "hash": "6518332563141174126"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/bj.png",
+          "hash": "12678053339411776908"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/bl.png",
+          "hash": "4686349193066101461"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/bm.png",
+          "hash": "18179789434568689017"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/bn.png",
+          "hash": "3250331931805824358"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/bo.png",
+          "hash": "18281526102679225075"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/bq.png",
+          "hash": "5223894609861619583"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/br.png",
+          "hash": "11263982812961592670"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/bs.png",
+          "hash": "11910727354451896350"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/bt.png",
+          "hash": "8169938424070388771"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/bv.png",
+          "hash": "3030855523763723778"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/bw.png",
+          "hash": "8572683972587876127"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/by.png",
+          "hash": "1343490720009183119"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/bz.png",
+          "hash": "18397183888526118189"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ca.png",
+          "hash": "9567312532808623727"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/cc.png",
+          "hash": "7517058130126468388"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/cd.png",
+          "hash": "9579369522730784249"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/cf.png",
+          "hash": "6159689373670230295"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/cg.png",
+          "hash": "14760096575895219418"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ch.png",
+          "hash": "6192521364491413962"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ci.png",
+          "hash": "4319280263956693845"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ck.png",
+          "hash": "17286767109459269205"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/cl.png",
+          "hash": "5947303814607416899"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/cm.png",
+          "hash": "6578456546503461822"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/cn.png",
+          "hash": "9962969595280334250"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/co.png",
+          "hash": "12223485689824470058"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/cr.png",
+          "hash": "16839679397783600227"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/cu.png",
+          "hash": "14062998121093583341"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/cv.png",
+          "hash": "16961632698738778140"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/cw.png",
+          "hash": "14363758574579309498"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/cx.png",
+          "hash": "6347550376837385271"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/cy.png",
+          "hash": "6834578864860944918"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/cz.png",
+          "hash": "4813022614332700799"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/de.png",
+          "hash": "646789531789474390"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/dj.png",
+          "hash": "137831054860833429"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/dk.png",
+          "hash": "142420498042957947"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/dm.png",
+          "hash": "18109623588772694235"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/do.png",
+          "hash": "6361403278285921870"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/dz.png",
+          "hash": "8129760730564779644"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ec.png",
+          "hash": "3118262035466900042"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ee.png",
+          "hash": "11085688693840931535"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/eg.png",
+          "hash": "1485691481786732277"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/er.png",
+          "hash": "11393663011091327494"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/es.png",
+          "hash": "14299895943769046166"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/et.png",
+          "hash": "17939041096916208524"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/fi.png",
+          "hash": "1562862073120320652"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/fj.png",
+          "hash": "10503300105596491562"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/fk.png",
+          "hash": "1754130292058693985"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/fm.png",
+          "hash": "9913242061432474335"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/fo.png",
+          "hash": "13755704531729879296"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/fr.png",
+          "hash": "4686349193066101461"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ga.png",
+          "hash": "7673076142531536567"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/gb.png",
+          "hash": "6513522304686482451"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/gd.png",
+          "hash": "12752550444425114925"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ge.png",
+          "hash": "17593245799129469392"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/gf.png",
+          "hash": "8809934835555684224"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/gg.png",
+          "hash": "10635935895815672708"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/gh.png",
+          "hash": "15098743031726097297"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/gi.png",
+          "hash": "1650365257961342298"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/gl.png",
+          "hash": "3018443270310141907"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/gm.png",
+          "hash": "4206746467504739388"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/gn.png",
+          "hash": "1738627115292449885"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/gp.png",
+          "hash": "4686349193066101461"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/gq.png",
+          "hash": "12180132376146081097"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/gr.png",
+          "hash": "4565526753627053915"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/gs.png",
+          "hash": "8457581065976512716"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/gt.png",
+          "hash": "8344625119058769041"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/gu.png",
+          "hash": "13089711422492625682"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/gw.png",
+          "hash": "1631080179991834240"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/gy.png",
+          "hash": "10151676460130001967"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/hk.png",
+          "hash": "17091042174608260326"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/hn.png",
+          "hash": "668867715072896496"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/hr.png",
+          "hash": "6857516281901313996"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ht.png",
+          "hash": "6085358096872663523"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/hu.png",
+          "hash": "14762570625454522692"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/id.png",
+          "hash": "6393458635892929527"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ie.png",
+          "hash": "15884151261478600038"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/il.png",
+          "hash": "3621265539317422169"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/im.png",
+          "hash": "1229938600448449418"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/in.png",
+          "hash": "1842994568111275713"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/io.png",
+          "hash": "7839734680017671720"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/iq.png",
+          "hash": "16064992036591140339"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ir.png",
+          "hash": "17928497953502007133"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/is.png",
+          "hash": "4891057605516002043"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/it.png",
+          "hash": "15751308355614819324"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/je.png",
+          "hash": "15483978885214777688"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/jm.png",
+          "hash": "10949299226869989548"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/jo.png",
+          "hash": "13392737643407962159"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/jp.png",
+          "hash": "7909636534353475338"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ke.png",
+          "hash": "2609706587315970351"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/kg.png",
+          "hash": "13267105700477747590"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/kh.png",
+          "hash": "4002781757408287904"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ki.png",
+          "hash": "18377978257363689951"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/km.png",
+          "hash": "16196300545183252985"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/kn.png",
+          "hash": "17001536050070124542"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/kp.png",
+          "hash": "16544463650016931406"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/kr.png",
+          "hash": "7818367423334423619"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/kw.png",
+          "hash": "7151694815532537071"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ky.png",
+          "hash": "3631869222754842098"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/kz.png",
+          "hash": "4118995139615893676"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/la.png",
+          "hash": "6131779341694537372"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/lb.png",
+          "hash": "12419829895360326254"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/lc.png",
+          "hash": "9953472790620924283"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/li.png",
+          "hash": "16044090278742542291"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/lk.png",
+          "hash": "4662728624562573507"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/lr.png",
+          "hash": "14228634208846808555"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ls.png",
+          "hash": "5659511193079195558"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/lt.png",
+          "hash": "4796661343048003118"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/lu.png",
+          "hash": "17184695385468218897"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/lv.png",
+          "hash": "16110561817920088686"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ly.png",
+          "hash": "4202838981863983987"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ma.png",
+          "hash": "10497505422648781248"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/mc.png",
+          "hash": "684663783967148778"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/md.png",
+          "hash": "1007948371291941103"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/me.png",
+          "hash": "13981303173922186094"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/mg.png",
+          "hash": "14935665410233932254"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/mh.png",
+          "hash": "4136147044300896388"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/mk.png",
+          "hash": "13185937301456783573"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ml.png",
+          "hash": "4434457475543682292"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/mm.png",
+          "hash": "1835669241301360255"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/mn.png",
+          "hash": "18370375960506342243"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/mo.png",
+          "hash": "8573721544844785193"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/mp.png",
+          "hash": "17282146126513751974"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/mq.png",
+          "hash": "18414377057081197167"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/mr.png",
+          "hash": "2583411688904044507"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ms.png",
+          "hash": "5288758069380283630"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/mt.png",
+          "hash": "9366509677919581823"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/mu.png",
+          "hash": "6864429492747367236"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/mv.png",
+          "hash": "10758346544656133818"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/mw.png",
+          "hash": "14614887091155746172"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/mx.png",
+          "hash": "11886471858319685599"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/my.png",
+          "hash": "13231767261324557113"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/mz.png",
+          "hash": "15269841322559803094"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/na.png",
+          "hash": "4971548081873787136"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/nc.png",
+          "hash": "13916722655812680940"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ne.png",
+          "hash": "11736888934773282362"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/nf.png",
+          "hash": "507011818654206796"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ng.png",
+          "hash": "8559034746683084998"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ni.png",
+          "hash": "5254815802697484623"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/nl.png",
+          "hash": "15632684779346397942"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/no.png",
+          "hash": "7960939397840484924"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/np.png",
+          "hash": "411909876676828695"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/nr.png",
+          "hash": "10582223349405057334"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/nu.png",
+          "hash": "17704961336853102287"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/nz.png",
+          "hash": "11826330834972263603"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/om.png",
+          "hash": "16407881964563735154"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/pa.png",
+          "hash": "10951323105357115089"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/pe.png",
+          "hash": "14201318004609049847"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/pf.png",
+          "hash": "8194200215856539919"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/pg.png",
+          "hash": "17762082561938270111"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ph.png",
+          "hash": "14534657020035747258"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/pk.png",
+          "hash": "8958717131051022626"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/pl.png",
+          "hash": "12193928782412288160"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/pm.png",
+          "hash": "15857617734164632513"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/pn.png",
+          "hash": "1507099021465969001"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/pr.png",
+          "hash": "9639784319987929759"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ps.png",
+          "hash": "2147964972704533618"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/pt.png",
+          "hash": "9359628215397189375"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/pw.png",
+          "hash": "16399645914698276748"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/py.png",
+          "hash": "7988625708834480839"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/qa.png",
+          "hash": "11016535713494078795"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/re.png",
+          "hash": "4686349193066101461"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ro.png",
+          "hash": "3023912636504486101"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/rs.png",
+          "hash": "8558196685984216081"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ru.png",
+          "hash": "13070289424184930445"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/rw.png",
+          "hash": "17683112975527840606"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/sa.png",
+          "hash": "760454323885659751"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/sb.png",
+          "hash": "6997367872326042763"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/sc.png",
+          "hash": "8277087224764762121"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/sd.png",
+          "hash": "6264803195001740031"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/se.png",
+          "hash": "11620355162667860556"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/sg.png",
+          "hash": "14690387887458057863"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/sh.png",
+          "hash": "6513522304686482451"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/si.png",
+          "hash": "16055161688747806295"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/sk.png",
+          "hash": "7845433074375735626"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/sl.png",
+          "hash": "18219710678116424598"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/sm.png",
+          "hash": "15528872364282996714"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/sn.png",
+          "hash": "16312704156763029310"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/so.png",
+          "hash": "11914403997879700605"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/sr.png",
+          "hash": "1787879024173243528"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ss.png",
+          "hash": "2201275084690319664"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/st.png",
+          "hash": "7170275386786024399"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/sv.png",
+          "hash": "5147050713061890364"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/sx.png",
+          "hash": "2876374535937504597"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/sy.png",
+          "hash": "5933900586437464972"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/sz.png",
+          "hash": "4017776839533675265"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/tc.png",
+          "hash": "9316910070288694175"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/td.png",
+          "hash": "12011585532689580170"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/tf.png",
+          "hash": "4202077894769562104"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/tg.png",
+          "hash": "18027851455130217984"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/th.png",
+          "hash": "14545716913668860409"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/tj.png",
+          "hash": "527782805487054275"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/tk.png",
+          "hash": "16702542736658878273"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/tl.png",
+          "hash": "901417678163083761"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/tm.png",
+          "hash": "9334874373659554918"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/tn.png",
+          "hash": "11130217908157562021"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/to.png",
+          "hash": "3106002171087468799"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/tr.png",
+          "hash": "15586293686179268761"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/tt.png",
+          "hash": "14127899535029959456"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/tv.png",
+          "hash": "2160203180378608990"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/tw.png",
+          "hash": "9583080009945611065"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/tz.png",
+          "hash": "1466978560191400869"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ua.png",
+          "hash": "18139372726863690666"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ug.png",
+          "hash": "154481169707297187"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/um.png",
+          "hash": "17660441658592274902"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/us.png",
+          "hash": "17660441658592274902"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/uy.png",
+          "hash": "7873144086848868058"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/uz.png",
+          "hash": "8546195887857296251"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/va.png",
+          "hash": "10808981339397640944"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/vc.png",
+          "hash": "8726569393638748808"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ve.png",
+          "hash": "4464110714173726583"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/vg.png",
+          "hash": "2316556280218924702"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/vi.png",
+          "hash": "6740342686564097368"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/vn.png",
+          "hash": "2075746293996714962"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/vu.png",
+          "hash": "896824332749357533"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/wf.png",
+          "hash": "17174661491244878896"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ws.png",
+          "hash": "9258404460015081050"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/ye.png",
+          "hash": "7271673393078549949"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/yt.png",
+          "hash": "4686349193066101461"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/za.png",
+          "hash": "8706793971961696308"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/zm.png",
+          "hash": "339293325861063560"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/flags/flags/zw.png",
+          "hash": "7004796915691815604"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/ionic/fonts/ionicons.ttf",
+          "hash": "17424690525004316806"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/ionic/ionicons.css",
+          "hash": "5923256737464112580"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/pe7/fonts/Pe-icon-7-stroke.woff",
+          "hash": "13505280348481036413"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/pe7/pe-icon-7.css",
+          "hash": "9781692169498849932"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/themify/fonts/themify.woff",
+          "hash": "4475730221220278368"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/themify/themify.css",
+          "hash": "7945792226388530546"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/typicons/fonts/typicons.woff",
+          "hash": "12132557328779520529"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/typicons/typicons.css",
+          "hash": "2253376465882966796"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/weather/fonts/weathericons-regular-webfont.woff2",
+          "hash": "14358099146017503459"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/icons/weather/weathericons.css",
+          "hash": "7500450999581062734"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/ion-rangeslider/css/ion.rangeSlider.min.css",
+          "hash": "5497997213447773666"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/ion-rangeslider/js/custom-rangeslider.js",
+          "hash": "5815172030154325225"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/ion-rangeslider/js/ion.rangeSlider.min.js",
+          "hash": "6313543285340496279"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/lightbox/glightbox.min.css",
+          "hash": "9512073457603626735"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/lightbox/glightbox.min.js",
+          "hash": "16122960711169713241"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/lightbox/lightbox.js",
+          "hash": "13570195309079199441"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/material/fonts/Material-Design-Iconic-Font.woff2",
+          "hash": "4170857890961962711"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/material/fonts/materialdesignicons-webfont.woff2",
+          "hash": "14659135310342926000"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/material/materialdesignicons.css",
+          "hash": "15763383415911893554"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/moment/moment.min.js",
+          "hash": "4512502064654908946"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/morris/chart-data.js",
+          "hash": "18053681185777280013"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/morris/morris.min.js",
+          "hash": "7261052700131630046"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/morris/raphael-min.js",
+          "hash": "9752668180399120102"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/owlcarousel/owl.carousel.min.css",
+          "hash": "9734570834642907511"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/owlcarousel/owl.carousel.min.js",
+          "hash": "12773358386508645173"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/owlcarousel/owl.theme.default.min.css",
+          "hash": "14841367932914933301"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/owlcarousel/owl.video.play.png",
+          "hash": "10373216527645057865"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/peity/chart-data.js",
+          "hash": "18013279491462214226"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/peity/jquery.peity.min.js",
+          "hash": "7911378452502163341"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/raty/custom.raty.js",
+          "hash": "3771925895589363620"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/raty/jquery.raty.js",
+          "hash": "4796865362580719061"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/scrollbar/custom-scroll.js",
+          "hash": "2269900010418094595"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/scrollbar/scroll.min.css",
+          "hash": "6179284999392749030"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/scrollbar/scrollbar.min.js",
+          "hash": "18219795725292345316"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/select2/css/select2.min.css",
+          "hash": "1930608699986425163"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/select2/js/custom-select.js",
+          "hash": "14914428173514887573"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/select2/js/select2.min.js",
+          "hash": "16606347994813126112"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/simpleline/fonts/Simple-Line-Icons.woff2",
+          "hash": "6495579323415014132"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/simpleline/simple-line-icons.css",
+          "hash": "7116829568775379594"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/stickynote/sticky.css",
+          "hash": "14632373060352526927"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/stickynote/sticky.js",
+          "hash": "1589274890777941654"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/summernote/font/summernote-1.eot",
+          "hash": "13828964733213634770"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/summernote/font/summernote.eot",
+          "hash": "13828964733213634770"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/summernote/font/summernote.ttf",
+          "hash": "15500563227728698936"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/summernote/font/summernote.woff",
+          "hash": "3937463192401443524"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/summernote/font/summernote.woff2",
+          "hash": "9637204519249195535"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/summernote/summernote-bs4.min.css",
+          "hash": "17717919502355924326"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/summernote/summernote-bs4.min.js",
+          "hash": "8164375254517125993"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/sweetalert/sweetalert2.all.min.js",
+          "hash": "2718404665882836738"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/sweetalert/sweetalerts.min.js",
+          "hash": "7963425960271323296"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/toastr/toastr.js",
+          "hash": "16066277050669191636"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/toastr/toastr.min.js",
+          "hash": "15897838271489221212"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/toastr/toatr.css",
+          "hash": "6118300865282099160"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/twitter-bootstrap-wizard/form-wizard.css",
+          "hash": "12078851123110044061"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/twitter-bootstrap-wizard/form-wizard.js",
+          "hash": "6818483137352652171"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/twitter-bootstrap-wizard/jquery.bootstrap.wizard.min.js",
+          "hash": "14513114724840472360"
+        },
+        {
+          "file": "apps/FE-Admin/src/assets/plugins/twitter-bootstrap-wizard/prettify.js",
+          "hash": "14940095280064353968"
+        },
+        {
+          "file": "apps/FE-Admin/src/favicon.ico",
+          "hash": "3464744996580215640"
+        },
+        {
+          "file": "apps/FE-Admin/src/index.html",
+          "hash": "508273121805128985"
+        },
+        {
+          "file": "apps/FE-Admin/src/main.ts",
+          "hash": "827237075323575508"
+        },
+        {
+          "file": "apps/FE-Admin/src/styles.css",
+          "hash": "2917954890128038984"
+        },
+        {
+          "file": "apps/FE-Admin/tsconfig.app.json",
+          "hash": "366722516949793923"
+        },
+        {
+          "file": "apps/FE-Admin/tsconfig.json",
+          "hash": "1426335498558518182"
+        },
+        {
+          "file": "apps/FE-Admin/tsconfig.spec.json",
+          "hash": "5059954046679394591"
+        }
+      ]
+    }
+  }
+}

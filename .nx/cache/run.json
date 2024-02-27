@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx start fe-client",
+    "startTime": "2024-02-27T09:51:01.362Z",
+    "endTime": "2024-02-27T10:02:16.528Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "fe-client:start",
+      "target": "start",
+      "projectName": "fe-client",
+      "hash": "194547791228456752",
+      "startTime": "2024-02-27T09:51:01.373Z",
+      "endTime": "2024-02-27T10:02:16.526Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}
